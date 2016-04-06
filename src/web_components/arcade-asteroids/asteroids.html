@@ -1,9 +1,11 @@
-<html>
-  <head>
-    <script src="jquery-1.4.1.min.js"></script>
-    <script src="vector_battle_regular.typeface.js"></script>
-    <script src="ipad.js"></script>
-    <script src="game.js"></script>
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
+<script src="../../jquery-1.4.1.min.js"></script>
+<script src="../../vector_battle_regular.typeface.js"></script>
+<script src="../../ipad.js"></script>
+<script src="../../game.js"></script>
+
+<dom-module id="arcade-asteroids">
+  <template>
     <style>
       #canvas { border:1px solid black; top:0px; left:0px; }
       .button { position:absolute; border:1px solid black; }
@@ -14,8 +16,7 @@
       #right { width:100px; height:100px; bottom:0px; left:100px; }
       #space { width:200px; height:200px; bottom:0px; right:0px; }
     </style>
-  </head>
-  <body>
+
     <div id="game-container">
       <canvas id="canvas" width="780" height="540"></canvas>
       <div id="left-controls">
@@ -27,5 +28,12 @@
         <div id="space" class='button'>FIRE</div>
       </div>
     </div>
-  </body>
-</html>
+  </template>
+
+  <script>
+    Polymer({
+      is : 'arcade-asteroids'
+    })
+  </script>
+
+</dom-module>

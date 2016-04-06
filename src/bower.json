@@ -1,0 +1,20 @@
+{
+  "name": "Arcade-Asteroids",
+  "homepage": "https://github.com/jfehrman/HTML5-Asteroids",
+  "authors": [
+    "Joe <joseph.fehrman@gmail.com>"
+  ],
+  "description": "This is a custom web component to load the game asteroids.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Polymer",
+    "Web-Components",
+    "Asteroids",
+    "Arcade"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  }
+}
